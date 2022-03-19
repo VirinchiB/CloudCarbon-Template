@@ -1,0 +1,2 @@
+# CloudCarbon-Template
+Sample template
