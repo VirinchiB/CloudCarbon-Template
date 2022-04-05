@@ -1,0 +1,26 @@
+span{
+    font-size: 12px;
+}
+.alignLeft{
+    text-align: start;
+    font-size: 12px;
+    font-weight: 600;
+}
+.selectDD{
+    color: black;
+    border: none;
+    background-color: #ffffff;
+    font-Size: 12px
+}
+.label{
+    span{
+        text-align: start;
+        font-size: 12px;
+    }
+}
+.graphSize{
+    height: 230px !important;
+    width: 190px !important;
+    margin-left: 0.5rem;
+    padding-top: 1rem;
+}
