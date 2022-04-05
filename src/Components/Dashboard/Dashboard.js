@@ -1,4 +1,4 @@
-import EmissionsLocation from "../Emissions-Location/EmissionsLocation";
+//import EmissionsLocation from "../Emissions-Location/EmissionsLocation";
 import EmissionsMonthly from "../Emissions-Monthly/EmissionsMonthly";
 import EmissionsResources from "../Emissions-Resources/EmissionsResources";
 // import Headders from "../Headder/Headder";
@@ -80,7 +80,7 @@ function Dashboard() {
               class="card p-1 mb-2"
               style={{ height: "calc(100vh - 500px)" }}
             >
-              <EmissionsLocation></EmissionsLocation>
+             
             </div>
           </div>
         </div>
