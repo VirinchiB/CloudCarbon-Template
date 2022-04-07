@@ -3,5 +3,4 @@ WORKDIR /app
 COPY package.json ./
 COPY ./ ./
 RUN npm i
-RUN npm install react-bootstrap bootstrap@5.1.3
-CMD ["npm", "run", "build"]
+CMD ["npm", "start"]
