@@ -7,6 +7,7 @@ import YearlyEmissions from "../Yearly-Emissions/YearlyEmissions";
 import YearlyImpact from "../YourImpact/YourImpact";
 import { Button } from 'carbon-components-react';
 import "./Dashboard.scss";
+import CardWithCharts from  "../CustomeCard/CardWithChart";
 
 function Dashboard() {
   return (
@@ -80,7 +81,7 @@ function Dashboard() {
               class="card p-1 mb-2"
               style={{ height: "calc(100vh - 500px)" }}
             >
-             
+             <CardWithCharts></CardWithCharts>
             </div>
           </div>
         </div>
